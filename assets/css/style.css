@@ -1,0 +1,64 @@
+body {
+	background-image: url("../images/light_wool.png");
+}
+.col-md-12.title {
+	background-color: #e9f2dd;
+}
+
+
+
+#titlebox {
+	background-color: #e9f2dd;
+	height: 100px;
+	text-align: center; 
+}
+
+#titleName {
+font-size: 50px;
+padding-top: 15px;
+font-family: 'Cabin Sketch', cursive;
+}
+
+#textbody {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	font-family: 'Loved by the King', cursive;
+	font-size: 20px;
+}
+
+#randomNumberGen {
+	text-align: right;
+	font-family: 'Loved by the King', cursive;
+	font-size: 40px;
+}
+
+h3 {
+	font-family: 'Loved by the King', cursive;
+	font-size: 40px;
+}
+
+h4 {
+	font-family: 'Loved by the King', cursive;
+}
+
+.col-md-10.col-md-offset-2.crystals {
+	margin-top: 20px
+}
+
+.crystalbutton {
+	float: left;
+}
+
+#totalScore {
+	float: right;
+	margin-top: 20px;
+	font-family: 'Loved by the King', cursive;
+	font-size: 40px;
+}
+
+#theTotalScore {
+	margin-top: 20px;
+	font-family: 'Loved by the King', cursive;
+	font-size: 40px;
+}
