@@ -40,6 +40,8 @@ h3 {
 
 h4 {
 	font-family: 'Loved by the King', cursive;
+	font-size: 20px;
+	width: 50px;
 }
 
 .col-md-10.col-md-offset-2.crystals {
@@ -61,4 +63,25 @@ h4 {
 	margin-top: 20px;
 	font-family: 'Loved by the King', cursive;
 	font-size: 40px;
+}
+
+a {
+	color: lightblue;
+	font-size: 10px;
+}
+
+#crystalRef {
+	margin-top: -10px;
+}
+
+#wins {
+	float: right;
+	font-family: 'Loved by the King', cursive;
+	font-size: 20px;
+}
+
+#loses {
+	float: right;
+	font-family: 'Loved by the King', cursive;
+	font-size: 20px;
 }
