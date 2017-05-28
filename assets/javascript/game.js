@@ -2,9 +2,8 @@
 
 $(document).ready(function() {
 
-
 // Step 1
-// Randomly Generate a number to match
+// Randomly Generate a number for user to match
 	
 	// Random Number Generator
     function getNumber() {
@@ -20,36 +19,13 @@ $(document).ready(function() {
 
 // Step 2
 // Assign each crystal a random value. 
-	// function randomCrystalNumber () {
-	// 	var crystalNumber = (Math.floor(Math.random() * 12) +1);
-	// 	$(".crystalbutton").html(crystalNumber);
-	// 	console.log(crystalNumber);
-	// }
-
-	// 	var crystalNumber = $(".crystalbutton");
-	// 	crystalNumber = randomCrystalNumber();
-
-
-	$(".crystalbutton").each(function() {
-
-  		var crystalNumber = Math.floor(Math.random() * 12 + 1),
-    	img = $(this);
-
-  		img.attr('src', 'pictures/number' + crystalNumber + '.png');
-  		img.attr('alt', 'Src: ' + img.attr('src'));
-
-	});
-
-
-
 // Step 3
 // When clicking a crystal, show the number in the total score box. 
 
-	$(".crystalbutton").on("click", function() {
-		$("#theTotalScore").html();
-	})
-
-
+	$(".btn").on("click", function() {
+		var crystalNumber = (Math.floor(Math.random() * 12) +1);
+		$("#theTotalScore").html(crystalNumber);
+	});
 
 // Step 4
 // When another crystal is clicked, add that value to the value shown.
