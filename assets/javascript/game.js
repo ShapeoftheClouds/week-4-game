@@ -30,14 +30,11 @@ $(document).ready(function() {
 	var crystal3 = (Math.floor(Math.random() * 12) +1);
 	var crystal4 = (Math.floor(Math.random() * 12) +1);
 
-
-
 	var wins = 0; 
 	var loses = 0;
 
 	$("#wins").html(wins);
 	$("#loses").html(loses);
-
 
 	// If the numbers match, add a win to the win count.
 	function win() {
@@ -48,8 +45,6 @@ $(document).ready(function() {
 			reset();
 		}
 	}
-
-
 
 	// If the number do not match, add a lose to the lose count. 
 	function lose() {
@@ -65,10 +60,8 @@ $(document).ready(function() {
 	winCounter = win();
 	loseCounter = lose();
 
-
 // When clicking a crystal, show the number in the total score box. 
 // When another crystal is clicked, add that value to the value shown.
-
 
 	$("#crystal1").on("click", function(){
 		scoreTally = scoreTally + crystal1;
@@ -113,8 +106,6 @@ $(document).ready(function() {
 		}
 
 	});
-
- 
 
 // After a win or lose, reset the total score, the random number, and the crystals.
 
